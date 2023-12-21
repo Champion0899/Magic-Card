@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 50px;
+    margin-left: 20px;
+}
+.grid_information{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+.border{
+    border: inset black;
+    padding: 25px;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.center{
+    text-align: center;
+}
+.margin{
+    margin-bottom: 30px;
+}

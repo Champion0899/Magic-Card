@@ -1,0 +1,25 @@
+.grid_footer{
+    display: grid;
+    grid-template-columns: 300px 300px auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #4A4D4D;
+    justify-content:center;
+    position:static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer h2{
+    color: #eeeeee;
+}
+footer a{
+    color: #eeeeee;
+}
+footer a:hover{
+    color: black;
+}
+footer p{
+    color: white;
+}
